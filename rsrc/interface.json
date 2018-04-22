@@ -1,0 +1,28 @@
+{
+	"commands": [
+		{
+			"cmd": "cfg",
+			"txt": "reload config"
+		},
+		{
+			"cmd": "clear",
+			"txt": "clear data directories"
+		},
+		{	"cmd": "download",
+			"txt": "download tickers"
+		},
+		{	"cmd": "exit",
+			"txt": "exit program"
+		},
+		{	"cmd": "help",
+			"txt": "print commands"
+		},
+		{	"cmd": "pr <ticker> [-d <n> depth of sessions] [-p <n> nof fut sessions (def: 3)] [-t <n> nof tests (def: 10)] [-c <n> print 'n' check-tests (def: 0)]",
+			"txt": "predict ticker"
+		},
+		{	"cmd": "prset <set> [depth of sessions] [nof tests (def: 10)]",
+			"txt": "predict set of tickers"
+		}
+	],
+	"unknown": "unknown command"
+}
